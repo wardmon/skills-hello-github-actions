@@ -23,6 +23,7 @@ jobs:
           if [ "$TEST" = "true" ]
           then
             PRBODY=$TESTBODY
+            echo "aaaaaaaaaaaaa"
           fi
 
           commentPR () {
